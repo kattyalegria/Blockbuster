@@ -1,0 +1,10 @@
+<h1>Editing movie</h1>
+
+<%= render "form", movie: @movie %>
+
+<br>
+
+<div>
+  <%= link_to "Ver pelicula", @movie,class:"btn btn-info"  %> |
+  <%= link_to "Volver", movies_path,class:"btn btn-secondary" %>
+</div>
